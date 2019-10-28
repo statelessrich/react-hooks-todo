@@ -50,7 +50,7 @@ function NewTodo() {
           <Overlay
             target={target.current}
             show={state.error !== ""}
-            placement="left"
+            placement="bottom"
           >
             {props => (
               <Tooltip
