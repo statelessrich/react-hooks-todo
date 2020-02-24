@@ -73,6 +73,7 @@ function NewTodo() {
           />
           <InputGroup.Append>
             <Button
+              variant="outline-secondary"
               className="add-btn"
               disabled={
                 state.error !== "" || state.input.trim() === ""
